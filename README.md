@@ -2,6 +2,16 @@
 
 This project is a simple web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to manage a list of books by performing  CRUD (Create, Read, Update, Delete) operations for capturing basic Book data using a form, storing it in a Cloud MongoDB database and exposing API endpoints for clients to interact with the data. Used Node framework Express for server side and MongoDB for database..
 
+## Table of Contents
+
+- [CRUD MERN-Stack](#crud-mern-stack)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Installation and Setup](#installation-and-setup)
+  - [Dependencies](#dependencies)
+  - [Demo](#demo)
+  
 ## Features
 
 - Add a new book with details such as title, author and publish year.
@@ -26,23 +36,27 @@ This project is a simple web application built with the MERN (MongoDB, Express.j
 
 2. Install dependencies:
 
-# Install server dependencies
-cd backend
-npm install
+   - Install server dependencies
+      ```bash
+      cd backend
+      npm install
 
-# Install client dependencies
-cd ../frontend
-npm install
+   - Install client dependencies
+      ```bash
+      cd frontend
+      npm install
 
 3. Start the application:
 
-# Start the server (from backend directory)
-cd ../backend
-npm run dev
+   - Start the server (from backend directory)
+      ```bash
+      cd ../backend
+      npm run dev
 
-# Start the client (from frontend directory)
-cd ../frontend
-npm run dev
+   - Start the client (from frontend directory)
+       ```bash
+       cd ../frontend
+       npm run dev
 
 ## Dependencies
 The following dependencies are required to run the BOOKSTORE-MERN-STACK-backend
@@ -62,4 +76,4 @@ The following dependencies are required to run the BOOKSTORE-MERN-STACK-frontend
     npm i notistack
     
 ## Demo
-    
+[Click here to Visit Site]().
