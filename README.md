@@ -51,7 +51,7 @@ This project is a simple web application built with the MERN (MongoDB, Express.j
    - Start the server (from backend directory)
       ```bash
       cd ../backend
-      npm run dev
+      npm start
 
    - Start the client (from frontend directory)
        ```bash
