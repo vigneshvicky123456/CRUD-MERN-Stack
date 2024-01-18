@@ -14,7 +14,9 @@ const DeleteBook = () => {
   const handleDeleteBook = () => {
     setLoading(true);
     axios
-    .delete(`https://mern-crud-vpg9.onrender.com/books/${id}`)
+    //.delete(`https://mern-crud-vpg9.onrender.com/books/${id}`)
+      .delete(`http://localhost:5555/books/${id}`)
+    .then(() => {
     .then(() => {
       setLoading(false);
       enqueueSnackbar('Book Deleted successfully', { variant: 'success' });
